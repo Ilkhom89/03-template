@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sariq.dev</title>
+</head>
+
+<body>
+    <header>
+        <a href="{% url 'home' %}">Bosh sahifa</a>
+        <a href="{% url 'about' %}">About</a>
+        <a href="{% url 'platforma' %}">Platforma</a>
+        <a href="{% url 'practikum' %}">Practikum</a>
+        <a href="{% url 'contact' %}">Contact</a>
+
+    </header>
+
+    {% block content %}
+    {% endblock content %}
+
+</body>
+</html>
